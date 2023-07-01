@@ -1,2 +1,0 @@
-email,subject,message
-sam@jain.com,recruiting,nah, this is a test!
