@@ -17,3 +17,11 @@
 Lib/
 Scripts/
 pyvenv.cfg
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Flask stuff:
+instance/
+.webassets-cache
