@@ -32,4 +32,4 @@ def submit_form():
         return 'Something went wrong'
 
 if __name__ == '__main__':
-    app.run
+    app.run()
