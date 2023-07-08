@@ -3795,7 +3795,7 @@ tbody.collapse.in {
 }
 
 .navbar-inverse {
-    background-color: transparent;
+    background-color: black;
     border-color: transparent
 }
 
@@ -3809,7 +3809,7 @@ tbody.collapse.in {
 }
 
 .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-text {
-    color: #9d9d9d
+    color: #fff;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
@@ -4746,7 +4746,14 @@ body.minimal {
 
 .hero-full-container .hero-full-wrapper .text-content {
     vertical-align: middle;
-    display: table-cell
+    text-align: center;
+    display: table-cell;
+}
+.hero-full-container .hero-full-wrapper .text-content h1 {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    font-size: 170px;
 }
 
 .white-text-container h1, .white-text-container h2, .white-text-container h3, .white-text-container h4, .white-text-container h5, .white-text-container p {
@@ -4856,7 +4863,7 @@ p {
     position: absolute;
     height: 100%;
     background-color: #000;
-    width: 1px
+    width: 0px
 }
 
 .h2:before, h2:before {
